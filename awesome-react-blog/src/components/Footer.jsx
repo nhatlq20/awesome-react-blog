@@ -13,12 +13,6 @@ const LinkedInIcon = () => (
     </svg>
 );
 
-const TwitterIcon = () => (
-    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-    </svg>
-);
-
 export default function Footer() {
     const currentYear = new Date().getFullYear();
 
@@ -36,11 +30,11 @@ export default function Footer() {
                                 <span className="text-white font-bold text-sm font-mono">N</span>
                             </div>
                             <span className="font-bold text-slate-900 dark:text-white">
-                                nhat<span className="text-primary-500">.dev</span>
+                                nhatlq20<span className="text-primary-500">.dev</span>
                             </span>
                         </div>
                         <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-                            Software Engineering Student · FPT University Can Tho. Passionate about Frontend & React.js.
+                            Software Engineering Student at FPT University Can Tho.
                         </p>
                         <div className="flex gap-3 mt-4">
                             <a href="https://github.com/nhatlq20" target="_blank" rel="noreferrer" className="p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200 cursor-pointer">
@@ -49,9 +43,7 @@ export default function Footer() {
                             <a href="https://linkedin.com/in/nhatlq20" target="_blank" rel="noreferrer" className="p-2 rounded-lg text-slate-500 hover:text-blue-600 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200 cursor-pointer">
                                 <LinkedInIcon />
                             </a>
-                            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg text-slate-500 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200 cursor-pointer">
-                                <TwitterIcon />
-                            </a>
+
                         </div>
                     </div>
 
