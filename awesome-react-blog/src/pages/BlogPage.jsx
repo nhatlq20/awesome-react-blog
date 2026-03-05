@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { blogPosts } from '../content/data';
@@ -134,8 +134,8 @@ export default function BlogPage() {
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
                                 className={`px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 cursor-pointer ${activeCategory === cat
-                                        ? 'bg-primary-500 text-white shadow-lg shadow-primary-500/25'
-                                        : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700 hover:border-primary-300'
+                                    ? 'bg-primary-500 text-white shadow-lg shadow-primary-500/25'
+                                    : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700 hover:border-primary-300'
                                     }`}
                             >
                                 {cat}
