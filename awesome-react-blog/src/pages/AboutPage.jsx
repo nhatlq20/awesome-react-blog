@@ -161,12 +161,12 @@ export default function AboutPage() {
                             >
                                 Get in touch
                             </a>
-                            <a
-                                href="#"
+                            <button
+                                type="button"
                                 className="px-6 py-3 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-sm hover:border-primary-300 dark:hover:border-primary-700 transition-all duration-200 hover:-translate-y-0.5 cursor-pointer"
                             >
                                 Download CV
-                            </a>
+                            </button>
                         </div>
                     </motion.div>
 
