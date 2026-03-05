@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0ea5e9" />
+
+  <!-- SEO Meta Tags -->
+  <title>Lê Quang Nhật — Frontend Developer & Software Engineering Student</title>
+  <meta name="description"
+    content="Lê Quang Nhật: Sinh viên Kỹ thuật phần mềm tại FPT Cần Thơ, đam mê Frontend với React.js. Xem blog, dự án và liên hệ hợp tác." />
+  <meta name="keywords"
+    content="Le Quang Nhat, frontend developer, React.js, JavaScript, FPT Can Tho, software engineering, nhatlq20" />
+  <meta name="author" content="Lê Quang Nhật" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lê Quang Nhật — Frontend Developer" />
+  <meta property="og:description"
+    content="Sinh viên Kỹ thuật phần mềm FPT Cần Thơ, đam mê xây dựng web đẹp và hiệu suất cao với React.js." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/nhatlq20" />
+  <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lê Quang Nhật — Frontend Developer" />
+  <meta name="twitter:description" content="Sinh viên FPT Cần Thơ, đam mê Frontend React.js và Modern Web." />
+  <meta name="twitter:creator" content="@nhatlq20" />
+
+  <!-- Fonts: Inter + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <!-- Initialize dark mode before React to avoid flash -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) { }
+    })();
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>

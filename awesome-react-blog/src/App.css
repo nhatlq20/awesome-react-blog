@@ -1,0 +1,14 @@
+/* App.css - minimal overrides, main styles in index.css */
+
+/* Remove default CRA styles */
+.App {
+  min-height: 100vh;
+}
+
+/* Ensure smooth transitions everywhere */
+*,
+*::before,
+*::after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
