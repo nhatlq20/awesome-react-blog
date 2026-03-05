@@ -157,7 +157,7 @@ export default function HomePage() {
                         className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 dark:bg-emerald-900/30 border border-emerald-200 dark:border-emerald-700/50 text-emerald-700 dark:text-emerald-400 text-sm font-medium mb-8"
                     >
                         <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                        Đang tìm kiếm cơ hội thực tập
+                        Open to internship opportunities
                     </motion.div>
 
                     {/* Name */}
@@ -220,10 +220,10 @@ export default function HomePage() {
                         className="flex flex-wrap justify-center gap-12 mt-16 pt-8 border-t border-slate-200/70 dark:border-slate-800"
                     >
                         {[
-                            { value: '3+', label: 'Năm Học Lập Trình' },
-                            { value: '4+', label: 'Dự án Hoàn Thành' },
+                            { value: '3+', label: 'Years of Coding' },
+                            { value: '4+', label: 'Projects Completed' },
                             { value: '3.2', label: 'GPA / 4.0' },
-                            { value: '3', label: 'Chứng Chỉ' },
+                            { value: '3', label: 'Certifications' },
                         ].map(stat => (
                             <div key={stat.label} className="text-center">
                                 <div className="text-3xl font-black text-slate-900 dark:text-white mb-1">{stat.value}</div>
@@ -288,7 +288,7 @@ export default function HomePage() {
                     <SectionHeader
                         eyebrow="Open Source"
                         title="GitHub Activity"
-                        subtitle="Consistent contributions, every week."
+                        subtitle="GitHub activity over the past year."
                     />
 
                     <FadeInWhenVisible>
@@ -296,7 +296,7 @@ export default function HomePage() {
                             <div className="flex items-center justify-between mb-6">
                                 <div>
                                     <h3 className="font-bold text-slate-900 dark:text-white">@nhatlq20</h3>
-                                    <p className="text-sm text-slate-500 dark:text-slate-400">Hoạt động GitHub trong năm qua</p>
+                                    <p className="text-sm text-slate-500 dark:text-slate-400">GitHub activity over the past year</p>
                                 </div>
                                 <a
                                     href="https://github.com/nhatlq20"
@@ -313,34 +313,6 @@ export default function HomePage() {
                 </div>
             </section>
 
-            {/* ===== FEATURED BLOG ===== */}
-            <section className="py-24 px-6 bg-slate-50/50 dark:bg-slate-900/50">
-                <div className="max-w-6xl mx-auto">
-                    <div className="flex items-center justify-between mb-12">
-                        <div>
-                            <p className="text-primary-500 dark:text-primary-400 text-sm font-semibold uppercase tracking-widest mb-2">Writing</p>
-                            <h2 className="text-4xl font-bold text-slate-900 dark:text-white">Featured Articles</h2>
-                        </div>
-                        <Link
-                            to="/blog"
-                            className="inline-flex items-center gap-2 text-primary-500 hover:text-primary-600 font-medium transition-colors cursor-pointer"
-                        >
-                            View all
-                            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M5 12h14M12 5l7 7-7 7" />
-                            </svg>
-                        </Link>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {featuredPosts.slice(0, 3).map((post, i) => (
-                            <div key={post.id} onClick={() => navigate(`/blog/${post.slug}`)}>
-                                <BlogCard post={post} index={i} />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
 
             {/* ===== FEATURED PROJECTS ===== */}
             <section className="py-24 px-6">

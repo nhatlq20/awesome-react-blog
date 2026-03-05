@@ -135,7 +135,7 @@ export default function AboutPage() {
                             About me
                         </p>
                         <h1 className="text-5xl md:text-6xl font-black text-slate-900 dark:text-white mb-6 leading-tight">
-                            Hi, I'm <span className="text-gradient">{profile.name.split(' ')[0]}</span>
+                            Hi, I'm <span className="text-gradient">{profile.name.split(' ')[1]}</span>
                         </h1>
                         <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
                             {profile.bio}

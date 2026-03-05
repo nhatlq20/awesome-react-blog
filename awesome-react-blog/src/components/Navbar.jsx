@@ -93,7 +93,7 @@ export default function Navbar() {
                             <span className="text-white font-bold text-sm font-mono">N</span>
                         </div>
                         <span className="font-bold text-slate-900 dark:text-white text-sm tracking-tight">
-                            nhat<span className="text-primary-500">.dev</span>
+                            nhatlq20<span className="text-primary-500">.dev</span>
                         </span>
                     </Link>
 

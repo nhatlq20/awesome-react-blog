@@ -40,7 +40,7 @@ export default function Footer() {
                             </span>
                         </div>
                         <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-                            Sinh viên Kỹ thuật Phần mềm - FPT Cần Thơ. Đam mê Frontend & React.js.
+                            Software Engineering Student · FPT University Can Tho. Passionate about Frontend & React.js.
                         </p>
                         <div className="flex gap-3 mt-4">
                             <a href="https://github.com/nhatlq20" target="_blank" rel="noreferrer" className="p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200 cursor-pointer">
@@ -94,7 +94,7 @@ export default function Footer() {
                     <p>© {currentYear} Lê Quang Nhật. Built with React + Tailwind + Framer Motion.</p>
                     <div className="flex items-center gap-1">
                         <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                        <span>Đang tìm kiếm cơ hội thực tập</span>
+                        <span>Open to internship opportunities</span>
                     </div>
                 </div>
             </div>

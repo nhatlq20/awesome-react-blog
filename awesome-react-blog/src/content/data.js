@@ -4,7 +4,7 @@ export const blogPosts = [
     id: 1,
     slug: 'react-performance-optimization',
     title: 'React Performance Optimization: A Deep Dive',
-    excerpt: 'Khám phá các kỹ thuật nâng cao để tối ưu hóa ứng dụng React — từ memoization đến virtualization, bundle splitting và Suspense boundaries.',
+    excerpt: 'Explore advanced techniques to optimize React applications — from memoization to virtualization, bundle splitting, and Suspense boundaries.',
     date: '2026-02-20',
     readTime: '8 min read',
     tags: ['React', 'Performance', 'JavaScript'],
@@ -86,22 +86,22 @@ function VirtualizedList({ items }) {
 }
 \`\`\`
 
-## 4. Profiling với React DevTools
+## 4. Profiling with React DevTools
 
-Luôn đo lường trước khi tối ưu. Dùng React DevTools Profiler để xác định bottleneck:
+Always measure before you optimize. Use the React DevTools Profiler to identify bottlenecks:
 
-> **Pro tip:** Tính năng "Why did this render?" trong React DevTools rất hữu ích khi tìm kiếm re-render không cần thiết.
+> **Pro tip:** The "Why did this render?" feature in React DevTools is invaluable when hunting down unnecessary re-renders.
 
 ## Conclusion
 
-Tối ưu hiệu suất là quá trình lặp đi lặp lại. Đo lường, xác định bottleneck, tối ưu, rồi đo lại. Đừng tối ưu sớm — tập trung vào những gì thực sự ảnh hưởng đến người dùng.
+Performance optimization is an iterative process. Measure, identify the bottleneck, optimize, then measure again. Don't optimize prematurely — focus on what actually impacts your users.
     `
   },
   {
     id: 2,
     slug: 'modern-css-techniques',
     title: 'Modern CSS Techniques Every Developer Should Know',
-    excerpt: 'Từ CSS Grid subgrid đến container queries, scroll-driven animations và các color functions mới — kỷ nguyên phục hưng của CSS đã đến.',
+    excerpt: 'From CSS Grid subgrid to container queries, scroll-driven animations, and new color functions — the CSS renaissance is here.',
     date: '2026-02-10',
     readTime: '6 min read',
     tags: ['CSS', 'Design', 'Frontend'],
@@ -195,7 +195,7 @@ Modern CSS cực kỳ mạnh mẽ. Hãy tận dụng các tính năng này để
     id: 3,
     slug: 'react-hooks-deep-dive',
     title: 'React Hooks Deep Dive: useEffect, useRef & Custom Hooks',
-    excerpt: 'Hiểu sâu về React Hooks — từ pitfalls của useEffect đến pattern custom hooks mạnh mẽ giúp code tái sử dụng dễ dàng.',
+    excerpt: 'A deep dive into React Hooks — from useEffect pitfalls to powerful custom hook patterns that make code reuse effortless.',
     date: '2026-01-28',
     readTime: '10 min read',
     tags: ['React', 'Hooks', 'JavaScript'],
@@ -288,8 +288,8 @@ Custom hooks là cách tốt nhất để chia sẻ logic giữa các components
   {
     id: 4,
     slug: 'git-workflow-best-practices',
-    title: 'Git Workflow Best Practices cho Team Development',
-    excerpt: 'Branching strategies, commit conventions, code review và Git hooks — xây dựng quy trình Git chuyên nghiệp cho dự án nhóm.',
+    title: 'Git Workflow Best Practices for Team Development',
+    excerpt: 'Branching strategies, commit conventions, code review, and Git hooks — build a professional Git workflow for your team projects.',
     date: '2026-01-15',
     readTime: '7 min read',
     tags: ['Git', 'Teamwork', 'DevOps'],
@@ -362,9 +362,9 @@ git cherry-pick abc1234
 // ===== Profile Data =====
 export const profile = {
   name: 'Quang Nhật',
-  title: 'Frontend Developer & Thực tập sinh',
-  tagline: 'Tôi xây dựng những trải nghiệm web đẹp mắt, nhanh chóng và thân thiện với người dùng.',
-  bio: `Sinh viên ngành Kỹ thuật phần mềm tại Trường Đại học FPT Cần Thơ (2023 - Hiện tại). Đam mê Front-end với React.js và đang mở rộng sang Full-stack (MERN Stack). Tôi luôn tập trung vào UI/UX sạch sẽ, hiệu suất cao và code có thể bảo trì dài hạn.`,
+  title: 'Frontend Developer & Intern',
+  tagline: 'I build beautiful, fast, and user-friendly web experiences.',
+  bio: `Software Engineering student at FPT University Can Tho. Passionate about Front-end development with React.js and expanding into Full-stack (MERN Stack). I focus on clean UI/UX, high performance, and maintainable code.`,
   avatar: null,
   email: 'qnhat202005@gmail.com',
   phone: '0769759512',
@@ -372,11 +372,11 @@ export const profile = {
   linkedin: 'https://linkedin.com/in/nhatlq20',
   twitter: 'https://twitter.com/nhatlq20',
   website: 'https://github.com/nhatlq20',
-  location: 'Ninh Kiều, Cần Thơ',
-  availability: 'Đang tìm kiếm cơ hội thực tập / Part-time',
-  gpa: '3.2/4',
-  university: 'Đại học FPT Cần Thơ',
-  major: 'Kỹ thuật phần mềm',
+  location: 'Ninh Kieu, Can Tho',
+  availability: 'Open to internship / Part-time opportunities',
+  gpa: '3.2/4.0',
+  university: 'FPT University Can Tho',
+  major: 'Software Engineering',
 };
 
 // ===== Skills Data =====
@@ -395,37 +395,37 @@ export const skills = [
 export const experiences = [
   {
     id: 1,
-    role: 'Frontend Developer (Thực tập)',
-    company: 'Đang tìm kiếm cơ hội',
-    period: '2026 — Hiện tại',
-    description: 'Đang tích cực tìm kiếm vị trí thực tập Front-end hoặc Junior Developer. Mục tiêu áp dụng kiến thức React.js, MERN Stack vào dự án thực tế và học hỏi từ các senior developer trong môi trường chuyên nghiệp.',
+    role: 'Frontend Developer (Internship)',
+    company: 'Seeking Opportunities',
+    period: '2026 — Present',
+    description: 'Actively looking for a Front-end internship or Junior Developer position. Goal: apply React.js and MERN Stack knowledge to real-world projects and learn from senior developers in a professional environment.',
     tags: ['React.js', 'Node.js', 'MongoDB', 'REST API'],
     type: 'work',
   },
   {
     id: 2,
-    role: 'Trưởng nhóm Frontend',
-    company: 'Dự án PharmacyLife (FPT University)',
-    period: '01/2026 — Hiện tại',
-    description: 'Dự án nhóm 5 thành viên - Hệ thống Quản lý Nhà thuốc. Phụ trách xử lý nghiệp vụ bán hàng đa đơn vị (Hộp/Vỉ/Viên), thiết kế ERD, quản lý giỏ hàng & thanh toán, phân quyền Admin/User và quản lý mã nguồn với Git.',
+    role: 'Frontend Team Lead',
+    company: 'PharmacyLife Project (FPT University)',
+    period: '01/2026 — Present',
+    description: 'A 5-member team project — Pharmacy Management System. Responsible for multi-unit sales logic (Box/Blister/Tablet), ERD design, cart & checkout flow, Admin/User role management, and Git version control.',
     tags: ['Java Web', 'JSP/Servlet', 'SQL Server', 'Git', 'MVC'],
     type: 'work',
   },
   {
     id: 3,
-    role: 'Sinh viên Kỹ thuật phần mềm',
-    company: 'Trường Đại học FPT Cần Thơ',
-    period: '2023 — Hiện tại',
-    description: 'Ngành Kỹ thuật phần mềm, GPA 3.2/4. Học các môn chuyên ngành như Software Engineering, Database Design, Web Development. Tích cực tham gia các dự án nhóm và hackathon trong trường.',
+    role: 'Software Engineering Student',
+    company: 'FPT University Can Tho',
+    period: '2023 — Present',
+    description: 'Software Engineering major, GPA 3.2/4. Coursework includes Software Engineering, Database Design, and Web Development. Actively participates in group projects and on-campus hackathons.',
     tags: ['Software Engineering', 'Database', 'Web Dev', 'GPA 3.2/4'],
     type: 'education',
   },
   {
     id: 4,
-    role: 'Học viên các khóa học online',
+    role: 'Online Course Learner',
     company: 'Coursera / Self-Learning',
-    period: '2025 — Hiện tại',
-    description: 'Hoàn thành các chứng chỉ: Web Design for Everybody (05/2025), Software Development Lifecycle (09/2025), User Experience Research and Design (01/2026). Tự học React.js, Node.js và MERN Stack qua các tài liệu online.',
+    period: '2025 — Present',
+    description: 'Completed certifications: Web Design for Everybody (05/2025), Software Development Lifecycle (09/2025), User Experience Research and Design (01/2026). Self-studying React.js, Node.js, and the MERN Stack through online resources.',
     tags: ['Web Design', 'UX Research', 'SDLC', 'React.js'],
     type: 'education',
   },
@@ -436,7 +436,7 @@ export const projects = [
   {
     id: 1,
     title: 'PharmacyLife',
-    description: 'Hệ thống Quản lý Nhà thuốc — dự án nhóm 5 thành viên. Bán hàng đa đơn vị (Hộp/Vỉ/Viên), quản lý kho, giỏ hàng, hóa đơn, phân quyền Admin/User với Java Web (JSP/Servlet).',
+    description: 'Pharmacy Management System — a 5-member team project. Multi-unit sales (Box/Blister/Tablet), inventory management, cart, invoicing, and Admin/User role management with Java Web (JSP/Servlet).',
     tags: ['Java Web', 'JSP/Servlet', 'SQL Server', 'Git', 'MVC'],
     gradient: 'from-blue-600 to-cyan-500',
     stars: 12,
@@ -448,7 +448,7 @@ export const projects = [
   {
     id: 2,
     title: 'Awesome React Blog',
-    description: 'Blog cá nhân (dự án này!) — Blog Profile kết hợp trang cá nhân với React.js, Tailwind CSS, Framer Motion. Dark/Light mode, Custom Cursor, Reading Progress Bar, Code Highlighting.',
+    description: 'Personal blog (this project!) — a Blog + Portfolio site built with React.js, Tailwind CSS, and Framer Motion. Features Dark/Light mode, Custom Cursor, Reading Progress Bar, and Code Highlighting.',
     tags: ['React.js', 'Tailwind CSS', 'Framer Motion', 'React Router'],
     gradient: 'from-purple-600 to-pink-500',
     stars: 8,
@@ -460,7 +460,7 @@ export const projects = [
   {
     id: 3,
     title: 'UI Components Library',
-    description: 'Bộ sưu tập các React components tái sử dụng — Button, Card, Modal, Form, với Tailwind CSS. Được xây dựng trong quá trình học React Hooks và component patterns.',
+    description: 'A collection of reusable React components — Button, Card, Modal, Form — styled with Tailwind CSS. Built while studying React Hooks and component design patterns.',
     tags: ['React.js', 'Tailwind CSS', 'JavaScript'],
     gradient: 'from-orange-500 to-yellow-400',
     stars: 5,
@@ -472,7 +472,7 @@ export const projects = [
   {
     id: 4,
     title: 'Landing Page Collection',
-    description: 'Bộ sưu tập các landing page đẹp với HTML, CSS, Bootstrap và JavaScript. Responsive design, animation CSS, hover effects. Thực hành trong quá trình học Web Design.',
+    description: 'A collection of beautiful landing pages built with HTML, CSS, Bootstrap, and JavaScript. Responsive design, CSS animations, and hover effects — created while learning Web Design.',
     tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     gradient: 'from-teal-500 to-emerald-400',
     stars: 3,

@@ -38,10 +38,10 @@ export default function ProjectsPage() {
                 <FadeInWhenVisible>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[
-                            { value: '4+', label: 'Dự án Hoàn Thành', color: 'from-blue-500 to-cyan-400' },
+                            { value: '4+', label: 'Projects Completed', color: 'from-blue-500 to-cyan-400' },
                             { value: '3.2', label: 'GPA / 4.0', color: 'from-purple-500 to-pink-400' },
-                            { value: '3', label: 'Chứng Chỉ', color: 'from-orange-500 to-yellow-400' },
-                            { value: '2026', label: 'Sắp Tốt Nghiệp', color: 'from-teal-500 to-emerald-400' },
+                            { value: '3', label: 'Certifications', color: 'from-orange-500 to-yellow-400' },
+                            { value: '2026', label: 'Graduating Soon', color: 'from-teal-500 to-emerald-400' },
                         ].map(stat => (
                             <div key={stat.label} className="p-5 rounded-2xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 text-center shadow-sm">
                                 <div className={`text-3xl font-black mb-1 bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`}>
