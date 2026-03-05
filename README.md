@@ -9,7 +9,6 @@
 
 **A modern Blog Profile combining personal portfolio and technical blog, built with React.js**
 
-[🌐 Live Demo](https://github.com/nhatlq20/awesome-react-blog) · [👤 My GitHub](https://github.com/nhatlq20) · [📧 Contact](mailto:qnhat202005@gmail.com)
 
 </div>
 
@@ -98,26 +97,5 @@ Open [http://localhost:3000](http://localhost:3000) to view in browser.
 - **Typography**: Inter (UI) + JetBrains Mono (code)
 - **Micro-animations** on every interactive element
 
----
 
-## 👨‍💻 About the Author
 
-**Lê Quang Nhật (Quang Nhật)**
-
-Sinh viên Kỹ thuật phần mềm tại **Đại học FPT Cần Thơ** (2023 — Hiện tại), GPA 3.2/4.
-Đam mê Frontend với React.js, đang hướng đến Full-stack MERN.
-
-- 🌐 GitHub: [@nhatlq20](https://github.com/nhatlq20)
-- 📧 Email: qnhat202005@gmail.com
-- 📍 Ninh Kiều, Cần Thơ
-
-**Certifications:**
-- Web Design for Everybody — Coursera (05/2025)
-- Software Development Lifecycle — Coursera (09/2025)
-- User Experience Research and Design — Coursera (01/2026)
-
----
-
-## 📝 License
-
-MIT © [Quang Nhật](https://github.com/nhatlq20)
