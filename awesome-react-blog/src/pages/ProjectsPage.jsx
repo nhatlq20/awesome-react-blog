@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { projects } from '../content/data';
-import { FadeInWhenVisible, SectionHeader, ProjectCard } from '../components/UI';
+import { FadeInWhenVisible, ProjectCard } from '../components/UI';
 
 const allTags = [...new Set(projects.flatMap(p => p.tags))];
 

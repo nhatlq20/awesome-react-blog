@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { profile, blogPosts, projects, skills, generateGitHubData } from '../content/data';
-import { FadeInWhenVisible, SectionHeader, BlogCard, ProjectCard } from '../components/UI';
+import { profile, projects, skills, generateGitHubData } from '../content/data';
+import { FadeInWhenVisible, SectionHeader, ProjectCard } from '../components/UI';
 
 // GitHub contributions colors
 const getContributionColor = (count) => {
@@ -49,7 +49,6 @@ function TypingEffect({ words }) {
 
 function GitHubGraph() {
     const [data] = useState(() => generateGitHubData());
-    const [tooltip, setTooltip] = useState(null);
 
     return (
         <div className="relative">
@@ -61,8 +60,8 @@ function GitHubGraph() {
                                 key={di}
                                 className={`w-3 h-3 rounded-sm github-cell cursor-pointer ${getContributionColor(count)}`}
                                 title={`${count} contributions`}
-                                onMouseEnter={(e) => setTooltip({ count, x: e.clientX, y: e.clientY })}
-                                onMouseLeave={() => setTooltip(null)}
+                                onMouseEnter={() => { }}
+                                onMouseLeave={() => { }}
                             />
                         ))}
                     </div>
@@ -118,7 +117,6 @@ function SkillBar({ skill, delay }) {
 
 export default function HomePage() {
     const navigate = useNavigate();
-    const featuredPosts = blogPosts.filter(p => p.featured).slice(0, 3);
     const featuredProjects = projects.filter(p => p.featured);
 
     // Store navigate in window for BlogCard to use
