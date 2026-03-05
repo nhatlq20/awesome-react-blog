@@ -50,36 +50,6 @@ Hooks:      react-intersection-observer, custom hooks
 
 ---
 
-## 📁 Project Structure
-
-```
-awesome-react-blog/
-├── public/
-│   └── index.html          # SEO meta tags, Google Fonts
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx       # Glassmorphism floating navbar
-│   │   ├── Footer.jsx       # Footer with social links
-│   │   ├── CustomCursor.jsx # Custom animated cursor
-│   │   └── UI.jsx           # Shared components (BlogCard, ProjectCard, etc.)
-│   ├── pages/
-│   │   ├── HomePage.jsx     # Hero, Skills, GitHub Graph, Featured posts
-│   │   ├── BlogPage.jsx     # Blog listing with search & filter
-│   │   ├── BlogPostPage.jsx # Individual post with ToC & code highlighting
-│   │   ├── ProjectsPage.jsx # Projects grid with tag filter
-│   │   └── AboutPage.jsx    # Profile, Skills, Timeline, Contact form
-│   ├── hooks/
-│   │   ├── useDarkMode.js   # Dark mode with localStorage
-│   │   └── useReadingProgress.js # Scroll progress tracker
-│   ├── content/
-│   │   └── data.js          # All site data (posts, profile, skills, projects)
-│   ├── App.js               # Router setup with AnimatePresence
-│   └── index.css            # Global styles, Tailwind, animations
-└── tailwind.config.js       # Custom theme (colors, fonts, animations)
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
