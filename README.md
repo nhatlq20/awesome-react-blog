@@ -61,15 +61,15 @@ Open [http://localhost:3000](http://localhost:3000) to view in browser.
 
 ##  Pages Overview
 
-** Home** — Hero with typing effect, skill bars, GitHub activity graph, featured posts & projects
+Home — Hero with typing effect, skill bars, GitHub activity graph, featured posts & projects
 
-** Blog** — Article listing with search, category filter (Engineering / Design), tag filter
+Blog — Article listing with search, category filter (Engineering / Design), tag filter
 
-** Blog Post** — Reading progress bar, VS Code syntax highlighting, auto Table of Contents, related posts
+Blog Post — Reading progress bar, VS Code syntax highlighting, auto Table of Contents, related posts
 
-** Projects** — Cards with tech stack tags, GitHub/demo links, tag filter
+Projects — Cards with tech stack tags, GitHub/demo links, tag filter
 
-** About** — Profile hero, animated skill cards, interactive timeline, contact form
+About — Profile hero, animated skill cards, interactive timeline, contact form
 
 ---
 
